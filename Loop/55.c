@@ -3,15 +3,6 @@
 int min(int a, int b) {return a < b ? a : b;}
 int max(int a, int b) {return a > b ? a : b;}
 
-int MIN(int a, int b, int c, int d){
-    int min = a;
-    if(b < min) min = b;
-    if(c < min) min = c;
-    if(d < min) min = d;
-
-    return min;
-}
-
 int main(){
     int M, N, x[2], y[2], e[2], n[2], f[2];
     scanf("%d %d", &M, &N);
